@@ -140,6 +140,9 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(121, 14, 14, 0.329);
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem; }
