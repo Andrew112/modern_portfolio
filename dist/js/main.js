@@ -29,5 +29,12 @@ function toggleMenu() {
 
     // Set Menu State
     showMenu = false;
+    // js/main.js
+    document.addEventListener('DOMContentLoaded', function() {
+    var footerYear = document.getElementById('footer-year');
+    if (footerYear) {
+    footerYear.textContent = new Date().getFullYear();
+  }
+});
   }
 }
