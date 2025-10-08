@@ -283,3 +283,16 @@ main {
       font-size: 5rem; }
   .projects {
     grid-template-columns: 1fr; } }
+.projects {
+  display: flex;
+  gap: 2rem;           /* Equal gap between items */
+  flex-wrap: wrap;     /* Allows wrapping on smaller screens */
+  justify-content: center; /* Centers the items horizontally */
+}
+
+.projects .item {
+  flex: 1 1 300px;     /* Grow/shrink, min width 300px */
+  max-width: 350px;    /* Optional: set a max width for each item */
+  box-sizing: border-box;
+  margin: 0;           /* Remove margin if previously set */
+}
