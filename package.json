@@ -7,6 +7,7 @@
   "scripts": {
     "start": "http-server dist -p 8080 -o",
     "sass": "sass --watch scss:dist/css",
+    "build:css": "npx sass scss:dist/css --no-source-map",
     "deploy": "gh-pages -d dist"
   },
   "author": "Andrew Coleman",

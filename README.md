@@ -27,7 +27,17 @@ This will watch for changes in the `scss` folder and automatically compile them 
 
 ## Deployment
 
-To deploy to GitHub Pages:
+### Automatic Deployment (Recommended)
+
+The app is automatically deployed to GitHub Pages whenever changes are pushed to the `main` branch via GitHub Actions workflow.
+
+The site will be available at: `https://[username].github.io/modern_portfolio/`
+
+You can also manually trigger the deployment from the Actions tab in the GitHub repository.
+
+### Manual Deployment
+
+Alternatively, you can manually deploy using:
 ```bash
 npm run deploy
 ```
